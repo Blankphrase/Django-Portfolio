@@ -7,7 +7,7 @@ class Project(models.Model):
     description = models.TextField()
     live_link = models.CharField(max_length=250)
     github_link = models.CharField(max_length = 250)
-    screenshot = models.ImageField(upload_to = '/')
+    screenshot = models.ImageField(upload_to = 'projects/')
 
     @classmethod
     def all_projects(cls):
