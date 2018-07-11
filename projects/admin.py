@@ -6,4 +6,4 @@ from .models import Project
 # class ProjectAdmin(admin.ModelAdmin):
     # filter_horizontal = 
 
-admin.site.(Project)
+admin.site.register(Project)
